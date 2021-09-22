@@ -1,8 +1,10 @@
 :root {
     --primary-color: #404040;
 }
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@200&display=swap');
 body {
     margin: 0;
+    font-family: 'Yaldevi', sans-serif;
 } 
 #header {
     height: 80px;
@@ -11,9 +13,12 @@ body {
     padding: 5px;
     text-align: center;
 }
+#content {
+    text-align: center;
+}
 textarea {
     width: 60%;
-    height: 150px;
+    height: 100px;
 }
 #footer {
     background-color: var(--primary-color);
