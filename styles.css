@@ -19,6 +19,14 @@ body {
 textarea {
     width: 60%;
     height: 100px;
+    border-radius: 5px;
+    padding: 5px;
+}
+#btn-translate {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 10px;
+    font-size: large;
 }
 #footer {
     background-color: var(--primary-color);
